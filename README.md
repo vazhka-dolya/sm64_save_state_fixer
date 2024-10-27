@@ -14,7 +14,7 @@ FC FF FF FF FF FC F2 38 = Alpha RGBA texture (With fog)
 ```
 As stated previously, the older ROM-hacking tools only used the command for a solid RGBA texture with fog for *all* of its textures, which means that we can try replacing `FC 12 7F FF FF FF F8 38` with a correct command from the list. The correct command is often one for the alpha RGBA texture without fog (`FC 12 18 24 FF 33 FF FF`) and it's very possible that you can just do the extreme option of replacing every instance of the command.
 ### In save states
-In save states, it's a little trickier, but nothing too difficult. Z64 ROM hacks are big endian and save states are little endian ([what is an endian?](https://en.wikipedia.org/wiki/Endianness)), which means that we also need to convert the save state from little endian to big endian, only then do the replacement described above, and then convert the changed save state back to little endian. Save states' data is usually 32-bit integers, which is four bytes.\
+In save states, it's a little trickier, but nothing too difficult. Z64 ROM hacks are big endian and save states are little endian ([what is an endian?](https://en.wikipedia.org/wiki/Endianness)), which means that we also need to convert the save state from little endian to big endian, only then do the replacement described above, and then convert the changed save state back to little endian. Save states' data is 32-bit integers, which is four bytes.\
 \
 This utility automates this process for save states.\
 \
