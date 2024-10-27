@@ -110,7 +110,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "SM64 Save State Fixer {}".format(AppVersion)))
-        self.groupBox.setTitle(_translate("MainWindow", "Combiner mode"))
+        self.groupBox.setTitle(_translate("MainWindow", "Color combiner command"))
         self.LabelCombinerInput.setText(_translate("MainWindow", "Input:"))
         self.ComboCombinerInput.setItemText(0, _translate("MainWindow", "Solid RGBA texture without fog (FC 12 7E 24 FF FF F9 FC)"))
         self.ComboCombinerInput.setItemText(1, _translate("MainWindow", "Alpha RGBA texture without fog (FC 12 18 24 FF 33 FF FF)"))
@@ -293,7 +293,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
     def AboutWindow(self, MainWindow):
         msgboxabo = QtWidgets.QMessageBox()
         msgboxabo.setWindowTitle("About")
-        msgboxabo.setText("SM64 Save State Fixer\nVersion: {}\nEdition: {}\nWritten by vazhka-dolya on GitHub (aka DanilAstroid pretty much anywhere else)\nLicensed under the Do What The Fuck You Want To Public License\n\nCredits:\n• GlitchyPSI – explaining to me how to fix black textures in save states.\n• HuggingChat (an AI) – writing the actual code for fixing black textures because I'm still too dumb to write that💀.\n\nThis program is not affiliated with or sponsored by Nintendo and does not use any of Nintendo's intellectual property.".format(AppVersion, AppEdition))
+        msgboxabo.setText("SM64 Save State Fixer\nVersion: {}\nEdition: {}\nWritten by vazhka-dolya on GitHub (aka DanilAstroid pretty much anywhere else)\nLicensed under the Do What The Fuck You Want To Public License\n\nCredits:\n• GlitchyPSI – explaining to me how to fix black textures in save states.\n• HuggingChat (an AI) – writing the actual code for fixing black textures because I'm still too dumb to write that myself💀.\n\nThis program is not affiliated with or sponsored by Nintendo and does not use any of Nintendo's intellectual property.".format(AppVersion, AppEdition))
         msgboxabo.setStandardButtons(QtWidgets.QMessageBox.Ok)
         msgboxabo.setIconPixmap(QtGui.QPixmap("resources/img/icon.png"))
         msgboxabo.setWindowIcon(QtGui.QIcon("resources/img/info.png"))
