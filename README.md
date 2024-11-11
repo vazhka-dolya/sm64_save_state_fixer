@@ -20,7 +20,7 @@ This utility automates this process for save states.\
 \
 Again, this is not guaranteed to work 100% of times, but I think it should succeed most of the times.
 # Plans
-All the main goals I had for this tool were finished, but a good addition would be support for other languages, which I could do one day if I really want to.
+All the main goals I had for this tool have been finished, but a good addition would be support for other languages, which I could do one day if I really want to.
 # Credits and notes
 - [GlitchyPSI](https://github.com/GlitchyPSIX) – explaining to me how to fix black textures in save states.
 - [HuggingFace](https://huggingface.co/chat/) (an AI) – writing the actual code for fixing black textures because I'm still too dumb to write that myself💀.
