@@ -24,6 +24,7 @@ All the main goals I had for this tool have been finished, but a good addition w
 # Credits and notes
 - [GlitchyPSI](https://github.com/GlitchyPSIX) – explaining to me how to fix black textures in save states.
 - [HuggingFace](https://huggingface.co/chat/) (an AI) – writing the actual code for fixing black textures because I'm still too dumb to write that myself💀.
-<a/>
-<br>
+
+Also check out my [M64MM3](https://github.com/projectcomet64/M64MM) add-on that has an option to do what this tool does, but in real time — [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks)!
+
 This program is not affiliated with or sponsored by Nintendo and does not use any of Nintendo's intellectual property.
