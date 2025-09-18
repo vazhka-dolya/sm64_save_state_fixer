@@ -1,3 +1,10 @@
+# Archived
+I don't really have interest in working on this project anymore. As mentioned below, one of my add-ons for [M64MM3](https://github.com/projectcomet64/M64MM), [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks), implements this program's functionality in real time, so I don't see any reason for working on SM64 Save State Fixer.
+<details>
+  <summary>Plus,</summary>
+  I really hate the fact that I put AI in the credits why did I do this that's cringe asf I wanna die💀
+</details>
+
 # SM64 Save State Fixer
 When using modern, more accurate graphics plugins on a Nintendo 64 emulator, you may stumble upon a problem where older Super Mario 64 ROM hacks tend to have an issue of pitch black textures in their custom levels. This utility is intended to be used on Super Mario 64 savestates (which are often used for custom levels in machinimas), and it *may* fix that problem in them.
 # <img src="https://github.com/vazhka-dolya/sm64_save_state_fixer/blob/main/GitHubResources/showcase_1_1.png"/>
@@ -23,7 +30,6 @@ Again, this is not guaranteed to work 100% of times, but I think it should succe
 All the main goals I had for this tool have been finished, but a good addition would be support for other languages, which I could do one day if I really want to.
 # Credits and notes
 - [GlitchyPSI](https://github.com/GlitchyPSIX) – explaining to me how to fix black textures in save states.
-- [HuggingFace](https://huggingface.co/chat/) (an AI) – writing the actual code for fixing black textures because I'm still too dumb to write that myself💀.
 
 Also check out my [M64MM3](https://github.com/projectcomet64/M64MM) add-on that has an option to do what this tool does, but in real time — [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks)!
 
